@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*
+CSS Global styles
+
+
+*/
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Tahoma, Arial, Verdana;
+  font-size: 100%;
+}
+#page-wrap1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#page-wrap2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header,
+nav,
+footer,
+article,
+section,
+aside {
+  display: block;
+}
+img,
+a {
+  border: 0;
+}
+
+/* Start Header */
+#site-header {
+  margin-top: 0;
+  background: white;
+  clear: both;
+}
+
+
+

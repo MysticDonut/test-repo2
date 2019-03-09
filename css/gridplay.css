@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*
+CSS Grid play!
+*/
+#page-wrap1,
+#page-wrap2 {
+    width: 100%;
+    max-width: 2000px;
+  }
+
+article {
+    display: flex;    
+    margin: 1rem auto;
+    /* max-height: 20rem; */
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+.explanation {
+    max-width: 700px;
+    background-color: beige;
+    margin: 2rem;
+}
+.gridVisual {
+
+}
+
+pre, code {
+    font-family: monospace, monospace;
+  }
+  pre {
+    overflow: auto;
+  }
+  pre > code {
+    display: block;
+    padding: 0.2rem 1rem;
+    word-wrap: normal;
+  }
+
+.explanation {
+    text-align: left;
+}
+/* Example 1 */
+.grid1 {
+    display: grid;
+    grid-template-columns: 200px 300px 100px;
+    grid-template-rows: 100px 200px 50px;
+    grid-gap: 20px;
+/*
+  need to review for IE
+    display: -ms-grid;
+    -ms-grid-columns: 200px auto 1fr;
+    -ms-grid-rows: 100px 20px 200px 20px 50px;
+*/
+}
+
+.example1 {
+    background-color: rgb(247, 218, 122);
+    color: #000;
+  
+}
+/* Example 2 */
+.grid2 {
+  display: grid;
+  grid-template-columns: 150px 150px 100px 100px 50px;
+  grid-template-rows: 100px 140px 50px 100px;
+  grid-gap: 20px;
+}
+
+  .example2 {
+    background-color: rgb(203, 247, 122);
+    color: #000;
+  }
+
+/* Example 2 */
+.grid3 {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px 70px;
+  grid-template-rows: 2fr 70px 70px;
+  grid-gap: 20px;
+}
+
+  .example3 {
+    background-color: rgb(170, 163, 255);
+    color: #000;
+    width: 100%;
+  }
